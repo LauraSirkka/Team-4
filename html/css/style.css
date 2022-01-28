@@ -59,3 +59,6 @@ body {
     .kuva{
       width: 100%;
     }
+    .näkyy{
+      border: solid red;
+    }
