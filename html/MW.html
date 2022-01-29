@@ -9,6 +9,44 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="css/style.css" rel="stylesheet" type="text/css">   
+
+
+
+
+
+    <style>
+      .dropbtn {
+        background-color: #003b31;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: relative;
+        background-color: #f1f1f100;
+        min-width: 160px;
+      }
+      
+      .dropdown-content a{
+        color: black;      
+        font-size: xx-large;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: #ddd;}
+      
+      .dropdown:hover .dropdown-content {display: block;}
+      
+      .dropdown:hover .dropbtn {background-color: #3e8e41;}
+      </style>
 </head>
 
 <body>
@@ -43,7 +81,6 @@
     <div class="container">
         <div class="ilmaa1">              
           <h2>Choose your means of transport</h2>
-
             <p>
               Choose your means of transport
               Want to know the approximate flight times from the 
@@ -58,20 +95,76 @@
 
       <div class="container">
         <div class="row">
-          <img src="https://cdn.discordapp.com/attachments/936661749891997749/936661774575501332/unknown.png" class="img-rounded col3 rounded" alt="airports" width="304" height="275">
-          <img src="https://cdn.discordapp.com/attachments/936661749891997749/936662163169378414/unknown.png" class="img-rounded col3 rounded" alt="Sea ports" width="304" height="275">
+          <img src="https://cdn.discordapp.com/attachments/936661749891997749/936661774575501332/unknown.png" class="img-rounded" alt="airports" width="304" height="275">
+          <img src="https://cdn.discordapp.com/attachments/936661749891997749/936662163169378414/unknown.png" class="img-rounded" alt="Sea ports" width="304" height="275">
         </div>
       </div>
       
 
       <div class="container">
-        
+        <p>Map of airports</p>
       </div>
 
 
-  <div id="map-container" class="container">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d449683.48086853913!2d-16.80284349145874!3d28.293713460419177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc4029effe8682ed%3A0xb01a4bf1c84baf3c!2sTeneriffa!5e0!3m2!1sfi!2sfi!4v1643388683731!5m2!1sfi!2sfi" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+  <div class="container">
+    <div class="row">
+     <div class="dropdown">
+       <button class="dropbtn">Will i need visa or passport?</button>
+      <div class="dropdown-content">
+      <p>Passports are always required except for citizens of the European Union, Switzerland, United Kingdom, or countries that are members of the European Economic Area. In these cases, citizens can travel with a valid identity card (except for minors, who must have a parental permit).</p>
+      </div>
+     </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="dropdown">
+        <button class="dropbtn">Where can i rent a car and what will i need?</button>
+       <div class="dropdown-content">
+       <p>We recommend that you arrange your rental vehicle before you travel and collect it at the airport upon arrival, at many train and bus stations or at the office agreed with the rental company. You can also book it directly at your destination. You can find car rental companies at all the airports and in the main train and bus stations.</p>
+       </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="dropdown">
+        <button class="dropbtn">Can i change my money into € when i arrive in Tenerife?</button>
+       <div class="dropdown-content">
+       <p>If you need to change your money to €, you will be able to do so at bureaus de change, at various banks, and at the majority of hotels and travel agencies.
+        You will normally find offices or ATMs that exchange currency in the international airports and high speed train stations.</p>
+       </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="dropdown">
+        <button class="dropbtn">I am going to travel to the city centre by public transport. What should i bear in mind?</button>
+       <div class="dropdown-content">
+       <p>Bus journeys are usually paid for upon climbing aboard and they usually only accept cash. Payment is always in € and change is usually limited (never above €20).
+        Metro and train journeys are paid for at the station and there are usually ticket machines. On certain occasions, they only accept payment by credit or debit card.</p>
+       </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="dropdown">
+        <button class="dropbtn">Below here you can see interactive map of Tenerife</button>
+       <div class="dropdown-content">
+       </div>
+      </div>
+    </div>
+    <br>
   </div>
+
+  <div class="container">
+    <div class="row">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d449683.48086853913!2d-16.80284349145874!3d28.293713460419177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc4029effe8682ed%3A0xb01a4bf1c84baf3c!2sTeneriffa!5e0!3m2!1sfi!2sfi!4v1643388683731!5m2!1sfi!2sfi" width="1200" height="900" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </div>
+
+
+
 
 
 </body>
