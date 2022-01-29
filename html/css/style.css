@@ -70,3 +70,7 @@ body {
     .näkyy{
       border: solid red;
     }
+
+    .rounded{
+      border-radius: 15%;
+    }
