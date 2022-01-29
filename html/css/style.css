@@ -1,6 +1,14 @@
 body {
     font-family: "Lato", sans-serif;
+    background-color: #cbe6df;
   }
+
+  .navbar {
+    background-color: #003b31;
+    font: 16px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
   
   .sidenav {
     width: 130px;
@@ -8,7 +16,7 @@ body {
     z-index: 1;
     top: 5%;
     left: 0,5%;
-    background: #003b32;
+    background: #8cb1a7;
     overflow-x: hidden;
     padding: 1%, 0;
   }
@@ -22,7 +30,7 @@ body {
   }
   
   .sidenav a:hover {
-    color: #064579;
+    color: #2db63f;
   }
   
   .main {
