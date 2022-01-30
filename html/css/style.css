@@ -103,8 +103,9 @@ body {
     .Sinnateksti {
       
       border: solid black 1px;
-      height: 100px;
-      width:200px;
+      height: 250px;
+      width:450px;
+      margin: 10px;
       
       
     }
