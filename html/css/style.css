@@ -102,3 +102,10 @@ body {
       width: 100%;
     }
 
+   .keskitys{
+     text-align: center;
+     font-size: large;
+   }
+   .isotxt{
+     font-size: large;
+   }
