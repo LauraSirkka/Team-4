@@ -43,7 +43,11 @@ body {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
-
+  @media screen and (max-width:767px){
+    .hideside{
+      display:none;
+    }
+  }
 
     .ilmaa1 {
       margin-top:5%;
@@ -88,9 +92,9 @@ body {
 
     .Sinnateksti {
       
-      border: solid black 1px;
-      height: 250px;
       
+      height: 250px;
+      border: solid black 1px;
       width: 35%;
       margin: 10px;
       
@@ -117,5 +121,12 @@ body {
 
    .sizeforce{
      max-width: 100%;
-     height: auto;
+     height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .sizeforce2{
+    max-width: 100%;
+    height: auto;
    }
