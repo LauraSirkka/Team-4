@@ -105,7 +105,17 @@ body {
    .keskitys{
      text-align: center;
      font-size: large;
+
    }
    .isotxt{
      font-size: large;
+   }
+
+   .keskikokotxt{
+     font-size: medium;
+   }
+
+   .sizeforce{
+     max-width: 100%;
+     height: auto;
    }
